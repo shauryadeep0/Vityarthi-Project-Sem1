@@ -33,10 +33,10 @@ No external libraries are required.
 Run:
 
 ```bash
-python student_grades.py
+python main.py
 ```
 
-Replace `student_grades.py` with the actual filename if different.
+Replace `main.py` with the actual filename if different.
 
 ## How to Use
 
