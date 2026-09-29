@@ -1,82 +1,77 @@
-# Student Grades Management System
+# 📚 Student Grades Management System
 
-A modular, menu-driven Python application designed to manage student academic records, calculate subject performance metrics, assign letter grades, and perform CRUD (Create, Read, Update, Delete) operations.
+## Overview
 
----
+A simple Python command-line application for managing student marks and grades. Users can add, update, remove, and view student records.
 
-## 📁 Project Structure
+## Features
 
-The project is structured into three modular components to adhere to clean code principles and separation of concerns:
+* ➕ Add student records
+* ✏️ Update student marks
+* 🗑️ Remove students
+* 📋 View all students
+* 📊 Calculate percentage
+* 🎓 Automatically assign grades
+* 🚪 Exit the program
 
-```text
-student-grade-manager/
-├── grading.py        # Grade calculation and percentage calculation logic
-├── operations.py     # Data management module (CRUD operations)
-├── main.py           # User interface and main application loop
-└── README.md         # Project documentation
-```
+## Technologies / Tools
 
----
+* **Python 3**
+* **Dictionary** – Stores student records
+* **Command-line interface** – Used for interaction
 
-## 🚀 Features
+## Installation
 
-- **Add Student Record:** Insert a new student entry with subject marks (Physics, Chemistry, Maths).
-- **Automatic Evaluation:** Automatically calculates percentage and assigns grades (`S`, `A`, `B`, `C`, `D`, `E`, `F`).
-- **Update Student Record:** Update subject marks and recalculate grade parameters for existing students.
-- **Remove Student Record:** Delete student data safely from the system.
-- **View All Records:** Display formatted academic summaries for all registered students.
-- **Input Validation:** Handles invalid menu choices gracefully.
+1. Install Python 3.
+2. Download or clone the project.
+3. Open the project directory.
 
----
+No external libraries are required.
 
-## 🛠️ Logic & Grading Scheme
+## Running the Project
 
-Grades are determined based on the total percentage across three core subjects:
-
-| Percentage Range | Grade | Description |
-| :--- | :--- | :--- |
-| $\ge 90\%$ | **S** | Outstanding |
-| $80\% - 89.9\%$ | **A** | Excellent |
-| $70\% - 79.9\%$ | **B** | Very Good |
-| $60\% - 69.9\%$ | **C** | Good |
-| $50\% - 59.9\%$ | **D** | Satisfactory |
-| $31\% - 49.9\%$ | **E** | Pass |
-| $\le 30\%$ | **F** | Fail |
-
----
-
-## 📋 Prerequisites
-
-- Python 3.6 or higher installed on your machine.
-
----
-
-## ⚙️ How to Run
-
-1. Clone or download all three Python files (`grading.py`, `operations.py`, and `main.py`) into the same directory.
-2. Open your terminal or command prompt in that directory.
-3. Execute the application with:
+Run:
 
 ```bash
-python main.py
+python student_grades.py
 ```
 
----
+Replace `student_grades.py` with the actual filename if different.
 
-## 🧪 Example Usage
+## How to Use
 
-```text
-...... Student Grades Management System ......
-1. Add Student
-2. Update Student
-3. Remove Student
-4. View Students
-5. Exit
+Choose an option from the menu:
 
-Enter your choice: 1
-Enter Student Name = Alice
-Enter Physics Marks = 85
-Enter Chemistry Marks = 92
-Enter Maths Marks = 88
-Added Alice with marks [85, 92, 88, 88.33, 'A']
-```
+1. **Add Student** – Enter the student's name and marks in Physics, Chemistry, and Maths.
+2. **Update Student** – Modify the marks of an existing student.
+3. **Remove Student** – Delete a student record.
+4. **View Student** – Display all stored student records.
+5. **Exit** – Close the program.
+
+The system calculates the average percentage and assigns a grade automatically.
+
+## Testing
+
+Test the following:
+
+* Adding a new student.
+* Updating an existing student.
+* Updating a student who does not exist.
+* Removing a student.
+* Removing a student who does not exist.
+* Viewing student records.
+* Different marks and grade ranges.
+* Invalid menu choices.
+
+## Future Improvements
+
+* Input validation for marks.
+* Search for individual students.
+* Calculate class average.
+* Sort students by marks.
+* Save records permanently using a file or database.
+* Improve the user interface.
+
+## License
+
+Educational project created for learning Python programming.
