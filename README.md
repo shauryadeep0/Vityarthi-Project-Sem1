@@ -29,6 +29,11 @@ A simple Python command-line application for managing student marks and grades. 
 No external libraries are required.
 
 ## Running the Project
+Install colorama:
+
+```bash
+pip install colorama
+```
 
 Run:
 
