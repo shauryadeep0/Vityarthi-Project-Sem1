@@ -1,4 +1,4 @@
-# 📚 Student Grades Management System
+# Student Grades Management System
 
 ## Overview
 
@@ -6,13 +6,13 @@ A simple Python command-line application for managing student marks and grades. 
 
 ## Features
 
-* ➕ Add student records
-* ✏️ Update student marks
-* 🗑️ Remove students
-* 📋 View all students
-* 📊 Calculate percentage
-* 🎓 Automatically assign grades
-* 🚪 Exit the program
+*  Add student records
+*  Update student marks
+*  Remove students
+*  View all students
+*  Calculate percentage
+*  Automatically assign grades
+*  Exit the program
 
 ## Technologies / Tools
 
